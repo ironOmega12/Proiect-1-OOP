@@ -5,7 +5,7 @@ public class Masini {
     private int kilometraj;
     private static int numarMasini = 0;
 
-    Masini(String marca, String model, String sasiu, int kilometraj) {
+    public Masini(String marca, String model, String sasiu, int kilometraj) {
         this.marca = marca;
         this.model = model;
         this.sasiu = sasiu;
