@@ -6,7 +6,7 @@ public class CatalogMasini {
         Scanner sc = new Scanner(System.in);
         int optiune;
         do{
-            System.out.println("--------------Meniu-----------");
+            System.out.println("--------------Meniu-----------"); // comm
             System.out.println("1.Introducere masini noi");
             System.out.println("2.Cautare masini");
             System.out.println("3.Afisare nr total masini");
