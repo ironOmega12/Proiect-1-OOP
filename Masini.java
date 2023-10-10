@@ -1,19 +1,19 @@
-public class Masini {
+public class Masini {           //campurile clasei
     private String marca;
     private String model;
     private String sasiu;
     private int kilometraj;
-    private static int numarMasini = 0;
+    private static int numarMasini = 0; //variabila statica care numara totalul de masini
 
-    public Masini(String marca, String model, String sasiu, int kilometraj) {
+    public Masini(String marca, String model, String sasiu, int kilometraj) { //constructor pentru initializarea unei masini
         this.marca = marca;
         this.model = model;
         this.sasiu = sasiu;
         this.kilometraj = kilometraj;
-        numarMasini++;
+        numarMasini++;      //incrementeaza numarul de masini de fiecare data cand se creeaza una noua
     }
 
-    public String getMarca(){
+    public String getMarca(){ //metodele get/set
         return marca;
     }
     public void setMarca(String marca){
